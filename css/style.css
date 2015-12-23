@@ -1,0 +1,368 @@
+body {
+	background-color: black;
+	margin-top: 50px;
+}
+
+.col-sm-6, .col-sm-12, .col-sm-4, .col-sm-8 {
+	padding-right: 10px;
+ 	padding-left: 10px;
+ 	line-height: 10px;
+}
+
+.panel-default {
+	border: none;
+	border-bottom-right-radius:0px;
+  	border-bottom-left-radius:0px;
+}
+
+.panel-heading {
+	height: 150px;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+  	border-top-right-radius:0px;
+  	border-top-left-radius:0px;
+  	background-size: cover;
+  	background-position: center;
+}
+
+.panel-title {
+	color:white;
+	font-family: Unna;
+	font-size: 45px;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+.panel-body {
+	font-family: "Unna";
+	font-size: 25px;
+	line-height: 100%;
+	text-align: center;
+	height: 150px;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+  	border-bottom-right-radius:0px;
+  	border-bottom-left-radius:0px;
+  	background-size: cover;
+  	background-position: center;
+}
+
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+	border-top:none;
+}
+
+/** TEXT DECORATION **/
+
+a {
+	text-decoration: none;
+}
+
+a:focus {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+/** BACKGROUND **/
+
+#headingA {
+	background: url(https://images.unsplash.com/11/sky-rose.jpg?crop=entropy&dpr=2&fit=crop&fm=jpg&h=700&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1325);
+  	background-size: cover;
+  	background-position: center;	
+  	color:white;
+}
+
+#headingB {
+	background-color: pink;
+	color:white;
+}
+
+#collapseB {
+	background-image: url(../img/b14.jpg);
+	background-size: cover;
+	background-position: 50% 30%;
+	color:white;
+}
+
+#headingC {
+	background-image:url(https://images.unsplash.com/photo-1415369629372-26f2fe60c467?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=def277d43764315bfef63f3465a3eba2);
+}
+
+#collapseC {
+	background-image: url(https://images.unsplash.com/photo-1445499348736-29b6cdfc03b9?crop=entropy&dpr=2&fit=crop&fm=jpg&h=700&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1200);
+	background-size: cover;
+	background-position: center;
+	color:white;
+}
+
+#headingD {
+	background-image: url(https://images.unsplash.com/45/aXpQLs4AQ5e1EtmeYkz3_20140524_124026.jpg?crop=entropy&dpr=2&fit=crop&fm=jpg&h=650&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=925);
+	color:white;
+}
+
+#collapseD {
+	background-image: url(../img/donut.jpg);
+	background-size: cover;
+	background-position: center;
+	color:white;
+}
+
+#headingE {
+	background-color: #036564;
+}
+
+#collapseE {
+	background-image:url(../img/3e.jpg);
+	background-size: cover;
+	background-position: 50% 20%;
+	color:white;
+}
+
+#headingF {
+	background-image:url(../img/friend.jpg);
+	background-position: 50% 80%;
+}
+
+#collapseF {
+	background-image:url(../img/s.jpg);
+	background-size: cover;
+	background-position: 50% 55%;
+	color:white;
+}
+
+#headingG {
+	background-image:url(../img/gggwheader.jpg);
+	background-position: 50% 25%;
+}
+
+#collapseG {
+	background-image:url(../img/gggw.jpg);
+	background-size: cover;
+	background-position: center;
+	color:white;
+}
+
+#headingH {
+	background-color: LightSlateGray ;
+	color:white;
+}
+
+#collapseH {
+	background-image: url(	https://static.pexels.com/photos/12597/437e798540fff54b876cf4460d375161-large.jpg);
+	background-position: 50% 70%;
+	color:white;
+}
+
+#headingI {
+	background-image: url(https://images.unsplash.com/36/hGibbjg0Rb2fUIoMtU5l__DSC8099.jpg?crop=entropy&dpr=2&fit=crop&fm=jpg&h=700&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1050);
+}
+
+#collapseI {
+	color:black;
+}
+
+#headingJ {
+	background-image:url(https://images.unsplash.com/photo-1444985196643-57cb0154bbd5?crop=entropy&dpr=2&fit=crop&fm=jpg&h=650&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1025);
+}
+
+#collapseJ {
+	background-image: url(https://c2.staticflickr.com/4/3163/2867223872_5bafc5f0d5_b.jpg);
+	background-size: cover;
+	background-position: 50% 70%;
+	color:white;
+}
+
+#headingK {
+	background-image: url(../img/kbbq.jpg);
+	background-position: 50% 45%;
+	color:white;
+}
+
+#collapseK {
+	background-image:url(https://c1.staticflickr.com/9/8822/16719102484_e39269f67a_b.jpg);
+	background-size: cover;
+	background-position: center;
+	color:white;
+}
+
+#headingL {
+	background-image: url(../img/logos.jpg);
+	background-position: 50% 40%;
+	color:white;
+}
+
+#collapseL {
+	background-image: url(../img/logos2.jpg);
+	background-size: cover;
+	background-position: center;
+	color:white;
+}
+
+#headingM {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/8a/Markham-suburbs_aerial-edit2.jpg);
+	background-position: 50% 70%;
+}
+
+#collapseM {
+	background-image:url(https://c1.staticflickr.com/9/8664/16482882477_dece92e9dd_b.jpg);
+	background-size: cover;
+	background-position: 50% 60%;
+	color:white;
+}
+
+#headingN {
+	background-image: url(https://c2.staticflickr.com/4/3799/14254530736_28d15c52dd_b.jpg);
+	background-position: 50% 12%;
+}
+
+#collapseN {
+	background-image:url(https://c2.staticflickr.com/6/5492/14386798730_f59d029b0d_b.jpg);
+	background-size: cover;
+	background-position: 50% 10%;
+	color:white;
+}
+
+#headingO {
+	background-color: #2E8B57;
+}
+
+#headingP {
+	background-image:url(https://images.unsplash.com/11/hochbunker.jpg?crop=entropy&dpr=2&fit=crop&fm=jpg&h=650&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=875);
+	background-position: 50% 83%;
+}
+
+#collapseP {
+	background-image:url(http://static2.businessinsider.com/image/557e24dfecad042e19346adf-1186-520/screen%20shot%202015-06-14%20at%205.59.31%20pm.png);
+	background-size: cover;
+	background-position: 50% 10%;
+	color:white;
+}
+
+#headingQ {
+	background-image:url(../img/3e.png);
+	background-size: cover;
+	background-position: 50% 20%;
+}
+
+#collapseQ {
+	background-image:url(../img/christmas.jpg);
+	background-size: cover;
+	background-position: center;
+	color:white;
+}
+
+#headingR {
+	background-image:url(https://c1.staticflickr.com/3/2645/4012148841_777e30ca45_b.jpg);
+}
+
+#collapseR {
+	background-image:url(../img/robert.jpg);
+	background-size: cover;
+	background-position: 50% 20%;
+	color:white;
+}
+
+#headingT {
+	background-image:url(https://images.unsplash.com/photo-1441226119864-4f31075ed6c5?crop=entropy&dpr=2&fit=crop&fm=jpg&h=650&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=800);
+}
+
+#headingS {
+	background-image:url(../img/music.jpg);
+	background-position: 50% 15%;
+}
+
+#collapseT {
+	background-image:url(../img/600lol.png);
+	background-size: cover;
+	background-position: 50% 20%;
+	color:white;
+}
+
+#headingU {
+	background-image:url(../img/ug1.jpg);
+	background-position: 50% 25%;
+	color:white;
+}
+
+#collapseU {
+	background-image:url(../img/ug2.jpg);
+	background-size: cover;
+	background-position: 50% 25%;
+	color:white;
+}
+
+#headingV {
+	background-image:url(https://images.unsplash.com/photo-1428279148693-1cf2163ed67d?crop=entropy&dpr=2&fit=crop&fm=jpg&h=700&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=800);
+	color:white;
+}
+
+#collapseV {
+	background-image:url(https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?crop=entropy&dpr=2&fit=crop&fm=jpg&h=650&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1300);
+	background-size: cover;
+	background-position: center;
+	color:white;
+}
+
+#headingW {
+	background-image:url(../img/western.jpg);
+	background-position: 50% 60%;
+	color:white;
+}
+
+#collapseW {
+	background-color: #4F2683;
+	color:white;
+}
+
+#headingX {
+	background-image: url(../img/christmas3.jpg);
+	background-position: 50% 40%;
+
+}
+
+#collapseX {
+	background-image: url(../img/okay.png);
+	background-position: 50% 30%;
+	background-size: cover;
+	color:white;
+}
+
+#headingY {
+	background-image: url(https://images.unsplash.com/photo-1446080501695-8e929f879f2b?crop=entropy&dpr=2&fit=crop&fm=jpg&h=650&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1300);
+}
+
+#headingZ {
+	background-image:url(../img/z.jpg);
+	background-position: 50% 20%;
+}
+
+#collapseZ {
+	background-image:url(../img/lolz.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+	color:white;
+}
+
+#headingEnd {
+	background-color: Teal;
+	background-size: cover;
+}
+
+#collapseEnd {
+	background-color: #006666;
+	color:white;
+}
+
+.end {
+	font-size: 20px;
+}
